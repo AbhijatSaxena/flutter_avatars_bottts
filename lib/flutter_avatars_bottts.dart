@@ -1,7 +1,4 @@
 library flutter_avatars_bottts;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/bottt_avatar.dart';
+export 'src/bottt.dart';
