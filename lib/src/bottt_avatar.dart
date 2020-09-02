@@ -19,9 +19,9 @@ class BotttAvatar extends StatelessWidget {
     return Column(
       children: [
         CircleAvatar(
-          radius: 80,
+          radius: 90,
           child: CircleAvatar(
-            radius: 75,
+            radius: 85,
             backgroundColor: Color.fromARGB(255, 100, 100, 100),
             child: Padding(
               padding: EdgeInsets.all(20),

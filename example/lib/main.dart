@@ -33,7 +33,19 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    _randomizeAvatar();
+    _initializeAvatar();
+  }
+
+  void _initializeAvatar() {
+    _bottt = Bottt(
+      color: Colors.red,
+      eye: EyeType.Glow,
+      face: FaceType.Square03,
+      mouth: MouthType.Bite,
+      side: SideType.Round,
+      texture: TextureType.Dirty01,
+      top: TopType.Horns,
+    );
   }
 
   void _randomizeAvatar() {
