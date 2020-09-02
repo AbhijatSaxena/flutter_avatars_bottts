@@ -14,7 +14,7 @@ Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanl
     <img src="example/sample/5.svg" width="60" />
     <img src="example/sample/6.svg" width="60" />
     <img src="example/sample/7.svg" width="60" />
-    <img src="example/sample/8.svg" width="60" />
+    <img src="example/sample/18.svg" width="60" />
     <img src="example/sample/9.svg" width="60" />
     <img src="example/sample/10.svg" width="60" />
 </p>
