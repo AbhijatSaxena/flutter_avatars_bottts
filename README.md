@@ -7,15 +7,16 @@ Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanl
 [bottts.com](https://bottts.com/).
 
 <p>
-    <img src="https://avatars.dicebear.com/api/bottts/1.svg" width="60" />
-    <img src="https://avatars.dicebear.com/api/bottts/2.svg" width="60" />
-    <img src="https://avatars.dicebear.com/api/bottts/3.svg" width="60" />
-    <img src="https://avatars.dicebear.com/api/bottts/4.svg" width="60" />
-    <img src="https://avatars.dicebear.com/api/bottts/5.svg" width="60" />
-    <img src="https://avatars.dicebear.com/api/bottts/6.svg" width="60" />
-    <img src="https://avatars.dicebear.com/api/bottts/7.svg" width="60" />
-    <img src="https://avatars.dicebear.com/api/bottts/8.svg" width="60" />
-    <img src="https://avatars.dicebear.com/api/bottts/9.svg" width="60" />
+    <img src="example/sample/1.svg" width="60" />
+    <img src="example/sample/2.svg" width="60" />
+    <img src="example/sample/3.svg" width="60" />
+    <img src="example/sample/4.svg" width="60" />
+    <img src="example/sample/5.svg" width="60" />
+    <img src="example/sample/6.svg" width="60" />
+    <img src="example/sample/7.svg" width="60" />
+    <img src="example/sample/8.svg" width="60" />
+    <img src="example/sample/9.svg" width="60" />
+    <img src="example/sample/10.svg" width="60" />
 </p>
 
 Further work is in progress - will keep updating the document
