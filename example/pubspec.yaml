@@ -22,7 +22,7 @@ environment:
 
 dependencies:
   flutter:
-    sdk: flutter
+    sdk: flutter    
   flutter_avatars_bottts:
     path: ../
 

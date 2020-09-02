@@ -10,13 +10,25 @@ import 'texture/texture_main.dart';
 import 'top/top_main.dart';
 
 class Bottt {
-  final Color color;
-  final EyeType eye;
-  final FaceType face;
-  final MouthType mouth;
-  final SideType side;
-  final TextureType texture;
-  final TopType top;
+  Color color;
+  EyeType eye;
+  FaceType face;
+  MouthType mouth;
+  SideType side;
+  TextureType texture;
+  TopType top;
+
+  //makes a copy of existing bottt
+  Bottt copy() {
+    return Bottt(
+        color: this.color,
+        eye: this.eye,
+        face: this.face,
+        mouth: this.mouth,
+        side: this.side,
+        texture: this.texture,
+        top: this.top);
+  }
 
   Bottt({
     this.color,

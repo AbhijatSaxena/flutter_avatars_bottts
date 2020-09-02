@@ -1,3 +1,4 @@
+import 'package:BotttsExample/settings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_avatars_bottts/flutter_avatars_bottts.dart';
 
@@ -10,18 +11,20 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      darkTheme: ThemeData.dark(),
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Avatars - Bottts'),
+      home: MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
-  final String title;
+  final Bottt sourceBot;
+
+  MyHomePage({Key key, this.sourceBot}) : super(key: key);
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -37,36 +40,55 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _initializeAvatar() {
-    _bottt = Bottt(
-      color: Colors.red,
-      eye: EyeType.Glow,
-      face: FaceType.Square03,
-      mouth: MouthType.Bite,
-      side: SideType.Round,
-      texture: TextureType.Dirty01,
-      top: TopType.Horns,
-    );
+    //take from constructor parameter, otherwise use default values
+    setState(() {
+      if (widget.sourceBot != null) {
+        _bottt = widget.sourceBot;
+      } else {
+        _bottt = new Bottt(
+          color: Colors.red,
+          eye: EyeType.Glow,
+          face: FaceType.Square03,
+          mouth: MouthType.Bite,
+          side: SideType.Round,
+          texture: TextureType.Dirty01,
+          top: TopType.Horns,
+        );
+      }
+    });
   }
 
   void _randomizeAvatar() {
-    _bottt = Bottt.random();
+    setState(() {
+      _bottt = Bottt.random();
+    });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text('Flutter Avatars - Bottts'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            BotttAvatar(bottt: _bottt),
+            BotttAvatar(_bottt),
             IconButton(
               iconSize: 48.0,
               icon: Icon(Icons.refresh),
-              onPressed: () => setState(_randomizeAvatar),
+              onPressed: _randomizeAvatar,
+            ),
+            IconButton(
+              iconSize: 48.0,
+              icon: Icon(Icons.settings),
+              onPressed: () => Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(builder: (context) {
+                  return AvatarSettings(_bottt);
+                }),
+              ),
             ),
           ],
         ),
