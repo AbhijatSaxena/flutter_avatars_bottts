@@ -18,18 +18,6 @@ class Bottt {
   TextureType texture;
   TopType top;
 
-  //makes a copy of existing bottt
-  Bottt copy() {
-    return Bottt(
-        color: this.color,
-        eye: this.eye,
-        face: this.face,
-        mouth: this.mouth,
-        side: this.side,
-        texture: this.texture,
-        top: this.top);
-  }
-
   Bottt({
     this.color,
     this.eye,
@@ -59,4 +47,34 @@ class Bottt {
           texture: texture ?? pickRandomItem(TextureType.values),
           top: top ?? pickRandomItem(TopType.values),
         );
+
+  Map<String, dynamic> toJson() => {
+        'color': color,
+        'eye': eye,
+        'face': face,
+        'mouth': mouth,
+        'side': side,
+        'texture': texture,
+        'top': top,
+      };
+
+  Bottt.fromJson(Map<String, dynamic> json)
+      : color = json['color'],
+        eye = json['eye'],
+        face = json['face'],
+        mouth = json['mouth'],
+        side = json['side'],
+        texture = json['texture'],
+        top = json['top'];
+
+  Bottt copy() {
+    return Bottt(
+        color: this.color,
+        eye: this.eye,
+        face: this.face,
+        mouth: this.mouth,
+        side: this.side,
+        texture: this.texture,
+        top: this.top);
+  }
 }
