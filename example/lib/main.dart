@@ -74,7 +74,17 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            BotttAvatar(_bottt),
+            CircleAvatar(
+              radius: 90,
+              child: CircleAvatar(
+                radius: 85,
+                backgroundColor: Color.fromARGB(255, 100, 100, 100),
+                child: Padding(
+                  padding: EdgeInsets.all(20),
+                  child: BotttAvatar(_bottt),
+                ),
+              ),
+            ),
             IconButton(
               iconSize: 48.0,
               icon: Icon(Icons.refresh),

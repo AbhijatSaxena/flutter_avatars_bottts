@@ -21,23 +21,7 @@ class BotttAvatar extends StatelessWidget {
 
     return Visibility(
       visible: this.bottt != null,
-      child: Column(
-        children: [
-          CircleAvatar(
-            radius: 90,
-            child: CircleAvatar(
-              radius: 85,
-              backgroundColor: Color.fromARGB(255, 100, 100, 100),
-              child: Padding(
-                padding: EdgeInsets.all(20),
-                child: Container(
-                  child: SvgPicture.string(_svgString),
-                ),
-              ),
-            ),
-          ),
-        ],
-      ),
+      child: SvgPicture.string(_svgString),
     );
   }
 }
