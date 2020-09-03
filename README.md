@@ -20,6 +20,6 @@ Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanl
 </p>
 
 <p>
-    <img src="example/samples/dark-theme.gif" width="222" />
-    <img src="example/samples/light-theme.gif.svg" width="222" />    
+    <img src="example/samples/dark-theme.gif" width="300" />
+    <img src="example/samples/light-theme.gif" width="300" />    
 </p>
