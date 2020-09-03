@@ -23,3 +23,4 @@ Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanl
     <img src="example/samples/dark-theme.gif" width="250" />
     <img src="example/samples/light-theme.gif" width="250" />    
 </p>
+(App's theme changes based on your device's theme)
