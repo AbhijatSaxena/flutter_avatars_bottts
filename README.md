@@ -26,8 +26,6 @@ Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanl
     <img src="example/images/dark-theme.gif" width="250" />    
 </p>
 
-<br/>
-<br/>
 
 ## Getting Started
 
