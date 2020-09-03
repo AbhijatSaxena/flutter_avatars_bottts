@@ -10,20 +10,20 @@ Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanl
 [bottts.com](https://bottts.com/).
 
 <p>
-    <img src="example/images/1.svg" width="60" />
-    <img src="example/images/2.svg" width="60" />
-    <img src="example/images/3.svg" width="60" />
-    <img src="example/images/4.svg" width="60" />
-    <img src="example/images/5.svg" width="60" />
-    <img src="example/images/6.svg" width="60" />
-    <img src="example/images/7.svg" width="60" />
-    <img src="example/images/8.svg" width="60" />
-    <img src="example/images/9.svg" width="60" />
-    <img src="example/images/10.svg" width="60" />
+    <img src="https://raw.githubusercontent.com/AbhijatSaxena/flutter_avatars_bottts/master/example/images/1.svg" width="60" />
+    <img src="https://raw.githubusercontent.com/AbhijatSaxena/flutter_avatars_bottts/master/example/images/2.svg" width="60" />
+    <img src="https://raw.githubusercontent.com/AbhijatSaxena/flutter_avatars_bottts/master/example/images/3.svg" width="60" />
+    <img src="https://raw.githubusercontent.com/AbhijatSaxena/flutter_avatars_bottts/master/example/images/4.svg" width="60" />
+    <img src="https://raw.githubusercontent.com/AbhijatSaxena/flutter_avatars_bottts/master/example/images/5.svg" width="60" />
+    <img src="https://raw.githubusercontent.com/AbhijatSaxena/flutter_avatars_bottts/master/example/images/6.svg" width="60" />
+    <img src="https://raw.githubusercontent.com/AbhijatSaxena/flutter_avatars_bottts/master/example/images/7.svg" width="60" />
+    <img src="https://raw.githubusercontent.com/AbhijatSaxena/flutter_avatars_bottts/master/example/images/8.svg" width="60" />
+    <img src="https://raw.githubusercontent.com/AbhijatSaxena/flutter_avatars_bottts/master/example/images/9.svg" width="60" />
+    <img src="https://raw.githubusercontent.com/AbhijatSaxena/flutter_avatars_bottts/master/example/images/10.svg" width="60" />
 </p>
 
-<p>
-    <img src="example/images/dark-theme.gif" width="250" />    
+<p>    
+    <img src="https://raw.githubusercontent.com/AbhijatSaxena/flutter_avatars_bottts/master/example/images/dark-theme.gif" width="250" />
 </p>
 
 <br/>
