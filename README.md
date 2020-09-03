@@ -10,21 +10,21 @@ Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanl
 [bottts.com](https://bottts.com/).
 
 <p>
-    <img src="example/samples/1.svg" width="60" />
-    <img src="example/samples/2.svg" width="60" />
-    <img src="example/samples/3.svg" width="60" />
-    <img src="example/samples/4.svg" width="60" />
-    <img src="example/samples/5.svg" width="60" />
-    <img src="example/samples/6.svg" width="60" />
-    <img src="example/samples/7.svg" width="60" />
-    <img src="example/samples/8.svg" width="60" />
-    <img src="example/samples/9.svg" width="60" />
-    <img src="example/samples/10.svg" width="60" />
+    <img src="example/images/1.svg" width="60" />
+    <img src="example/images/2.svg" width="60" />
+    <img src="example/images/3.svg" width="60" />
+    <img src="example/images/4.svg" width="60" />
+    <img src="example/images/5.svg" width="60" />
+    <img src="example/images/6.svg" width="60" />
+    <img src="example/images/7.svg" width="60" />
+    <img src="example/images/8.svg" width="60" />
+    <img src="example/images/9.svg" width="60" />
+    <img src="example/images/10.svg" width="60" />
 </p>
 
 <p>
-    <img src="example/samples/dark-theme.gif" width="250" />
-    <img src="example/samples/light-theme.gif" width="250" />    
+    <img src="example/imagaes/dark-theme.gif" width="250" />
+    <img src="example/images/light-theme.gif" width="250" />    
 </p>
 (App's theme changes based on your device's theme)
 
@@ -78,6 +78,6 @@ CircleAvatar(
 )
 ```
 
-### Persisting avatars
+### Persisting bottts
 
-Use `Avataaar.toJson()` and `Avataaar.fromJson(String)` methods to serialize/deserialize avatars.
+Use `botttObject.toJson()` and `Bottt.fromJson(serializedBotttString)` methods to serialize/deserialize bottts.
