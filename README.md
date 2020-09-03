@@ -26,8 +26,6 @@ Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanl
     <img src="https://raw.githubusercontent.com/AbhijatSaxena/flutter_avatars_bottts/master/example/images/dark-theme.gif" width="250" />
 </p>
 
-<br/>
-<br/>
 
 ## Getting Started
 
