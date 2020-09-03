@@ -7,16 +7,19 @@ Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanl
 [bottts.com](https://bottts.com/).
 
 <p>
-    <img src="example/sample/1.svg" width="60" />
-    <img src="example/sample/2.svg" width="60" />
-    <img src="example/sample/3.svg" width="60" />
-    <img src="example/sample/4.svg" width="60" />
-    <img src="example/sample/5.svg" width="60" />
-    <img src="example/sample/6.svg" width="60" />
-    <img src="example/sample/7.svg" width="60" />
-    <img src="example/sample/8.svg" width="60" />
-    <img src="example/sample/9.svg" width="60" />
-    <img src="example/sample/10.svg" width="60" />
+    <img src="example/samples/1.svg" width="60" />
+    <img src="example/samples/2.svg" width="60" />
+    <img src="example/samples/3.svg" width="60" />
+    <img src="example/samples/4.svg" width="60" />
+    <img src="example/samples/5.svg" width="60" />
+    <img src="example/samples/6.svg" width="60" />
+    <img src="example/samples/7.svg" width="60" />
+    <img src="example/samples/8.svg" width="60" />
+    <img src="example/samples/9.svg" width="60" />
+    <img src="example/samples/10.svg" width="60" />
 </p>
 
-Further work is in progress - will keep updating the document
+<p>
+    <img src="example/samples/dark-theme.gif" width="222" />
+    <img src="example/samples/light-theme.gif.svg" width="222" />    
+</p>
