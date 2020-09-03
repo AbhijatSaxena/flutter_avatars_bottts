@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
       if (widget.sourceBot != null) {
         _bottt = widget.sourceBot;
       } else {
-        _bottt = new Bottt(
+        _bottt = Bottt(
           color: Colors.red,
           eye: EyeType.Glow,
           face: FaceType.Square03,

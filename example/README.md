@@ -1,6 +1,6 @@
 # BotttsExample
 
-A new Flutter project.
+A Flutter Widget to demonstrate the Flutter Avatars Bottts Package
 
 ## Getting Started
 
