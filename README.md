@@ -23,7 +23,7 @@ Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanl
 </p>
 
 <p>
-    <img src="example/imagaes/dark-theme.gif" width="250" />
+    <img src="example/images/dark-theme.gif" width="250" />
     <img src="example/images/light-theme.gif" width="250" />    
 </p>
 (App's theme changes based on your device's theme)
