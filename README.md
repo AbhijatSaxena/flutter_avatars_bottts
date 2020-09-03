@@ -3,6 +3,8 @@
 
 A high perforamnce [Flutter](https://flutter.dev/) Widget to render [Bottts](https://bottts.com/) svg avatars on android/ios devices.
 
+It's faster than other classical approaches because it's not using any API, rather it's rendering SVG strings on the fly !
+
 Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanley), the Sketch library can be found on
 [bottts.com](https://bottts.com/).
 
