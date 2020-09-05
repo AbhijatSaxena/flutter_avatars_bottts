@@ -51,7 +51,7 @@ var _bottt = Bottt.random(
 );
 ```
 
-2. Create AvataaarImage widget and pass it the avatar:
+2. Create BotttAvatar widget and pass it the bottt object:
 
 ```Dart
 Padding(
