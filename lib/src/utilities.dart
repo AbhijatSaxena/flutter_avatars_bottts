@@ -12,3 +12,12 @@ T pickOneItem<T>(List<dynamic> collection, dynamic id) {
     return null;
   }
 }
+
+String enumToJson<T>(T value) =>
+    value != null ? value.toString().split('.')[1] : null;
+
+T enumFromJson<T>(List<T> values, String json) => json != null
+    ? values.firstWhere(
+        (it) => enumToJson(it).toLowerCase() == json.toLowerCase(),
+        orElse: () => null)
+    : null;

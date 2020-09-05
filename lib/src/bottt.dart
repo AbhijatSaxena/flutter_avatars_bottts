@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/painting.dart';
 import 'package:flutter_avatars_bottts/src/utilities.dart';
 import 'package:random_color/random_color.dart';
@@ -49,23 +51,38 @@ class Bottt {
         );
 
   Map<String, dynamic> toJson() => {
-        'color': color,
-        'eye': eye,
-        'face': face,
-        'mouth': mouth,
-        'side': side,
-        'texture': texture,
-        'top': top,
+        'color': color.value,
+        'eye': enumToJson(eye),
+        'face': enumToJson(face),
+        'mouth': enumToJson(mouth),
+        'side': enumToJson(side),
+        'texture': enumToJson(texture),
+        'top': enumToJson(top),
       };
 
   Bottt.fromJson(Map<String, dynamic> json)
-      : color = json['color'],
-        eye = json['eye'],
-        face = json['face'],
-        mouth = json['mouth'],
-        side = json['side'],
-        texture = json['texture'],
-        top = json['top'];
+      : color = Color(json['color']),
+        eye = enumFromJson(EyeType.values, json['eye']),
+        face = enumFromJson(FaceType.values, json['face']),
+        mouth = enumFromJson(MouthType.values, json['mouth']),
+        side = enumFromJson(SideType.values, json['side']),
+        texture = enumFromJson(TextureType.values, json['texture']),
+        top = enumFromJson(TopType.values, json['top']);
+
+  String serialize() {
+    return json.encode(this.toJson());
+  }
+
+  Bottt.deSerialize(String _serializedBottt) {
+    var _bottt = Bottt.fromJson(json.decode(_serializedBottt));
+    color = _bottt.color;
+    eye = _bottt.eye;
+    face = _bottt.face;
+    mouth = _bottt.mouth;
+    side = _bottt.side;
+    texture = _bottt.texture;
+    top = _bottt.top;
+  }
 
   Bottt copy() {
     return Bottt(
