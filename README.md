@@ -73,6 +73,8 @@ CircleAvatar(
 )
 ```
 
-### Persisting bottts
+### Serialization/Deserialization
 
-Use `botttObject.toJson()` and `Bottt.fromJson(serializedBotttString)` methods to serialize/deserialize bottts.
+For Maps: Use `botttObject.toJson()` and `Bottt.fromJson(serializedBotttString)` methods to serialize/deserialize bottts.
+
+For Strings: Use `botttObject.serialize()` and `Bottt.deserialize()(serializedBotttString)` methods to serialize/deserialize bottts.
