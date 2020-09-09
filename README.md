@@ -1,11 +1,9 @@
 # [Flutter Avatars - Bottts](https://pub.dev/packages/flutter_avatars_bottts)
 ![license](https://img.shields.io/npm/l/@dicebear/avatars-bottts-sprites.svg?style=flat-square)
 
-A high performance [Flutter](https://flutter.dev/) Widget to render [Bottts](https://bottts.com/) svg avatars on android/ios devices.
+A high performance [Flutter](https://flutter.dev/) Widget to render [Bottts](https://bottts.com/) svg avatars on android/ios devices. ([pub.get link](https://pub.dev/packages/flutter_avatars_bottts))
 
 It's faster than other classical approaches because it's not using any API, rather it's rendering SVG strings on the fly !
-
-[pub.get link](https://pub.dev/packages/flutter_avatars_bottts)
 
 ## Bottts :
 Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanley), the Sketch library can be found on
