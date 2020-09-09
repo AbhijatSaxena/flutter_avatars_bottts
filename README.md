@@ -5,6 +5,8 @@ A high performance [Flutter](https://flutter.dev/) Widget to render [Bottts](htt
 
 It's faster than other classical approaches because it's not using any API, rather it's rendering SVG strings on the fly !
 
+[pub.get link](https://pub.dev/packages/flutter_avatars_bottts)
+
 ## Bottts :
 Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanley), the Sketch library can be found on
 [bottts.com](https://bottts.com/).
