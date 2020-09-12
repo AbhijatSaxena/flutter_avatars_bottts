@@ -28,7 +28,19 @@ Characters Originally Designed by [Pablo Stanley](https://twitter.com/pablostanl
 
 ## Getting Started
 
-1. Create Bottt object:
+1. Add this to your package's pubspec.yaml file:
+```Dart
+dependencies:
+  flutter_avatars_bottts: ^1.0.3
+```
+
+2. Import the package
+```Dart
+import 'package:flutter_avatars_bottts/flutter_avatars_bottts.dart';
+```
+
+
+3. Create Bottt object:
 ```Dart
 // Create Bottt with default constructor
 var _bottt = Bottt(
@@ -51,7 +63,7 @@ var _bottt = Bottt.random(
 );
 ```
 
-2. Create BotttAvatar widget and pass it the bottt object:
+4. Create BotttAvatar widget and pass it the bottt object:
 
 ```Dart
 Padding(
